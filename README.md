@@ -25,5 +25,5 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/ваш-username/hh-vacancies-parser.git
+git clone https://github.com/str057/db_vacancies
 cd hh-vacancies-parser

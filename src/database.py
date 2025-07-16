@@ -1,13 +1,12 @@
 import psycopg2
 from typing import Optional, List
-from .config import DB_CONFIG
-from .models import Employer, Vacancy
+from src.config import DB_CONFIG
+from src.models import Employer, Vacancy
 import logging
 import re
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
 
 
 class Database:
